@@ -7,13 +7,13 @@ class database {
 
 function database() {
             $this->dbhost = 'localhost';	
-	    $this->dbuser = 'deb4597_blus123';
-            $this->dbpass = 'sdsZLo9p';		
+	        $this->dbuser = '?';
+            $this->dbpass = '?';		
             $this->dbconn = null;
      }
 
         public function connect($dbname) {
-			//$dbname = 'deb4597_blog';
+			//$dbname = '?';
             if(!$this->dbconn) {
                 if (!$this->dbconn = mysql_connect($this->dbhost, $this->dbuser, $this->dbpass)) {
                     throw new Exception('<span>Kon geen verbinding maken met de database</span>');
@@ -79,6 +79,6 @@ function database() {
 }
 		
 //$database = new database;
-//$database->connect('deb4597_blog');
+//$database->connect('?');
 
 ?> 

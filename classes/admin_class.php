@@ -3,7 +3,7 @@
 class Admin{
 	
 	public function __construct() {
-		$this->link = new MySQLi('localhost', 'deb4597_blus123', 'voqQzO79', "deb4597_blog");
+		$this->link = new MySQLi('localhost', '?', '?', "?");
 	}
   
   public function adminLog($message){

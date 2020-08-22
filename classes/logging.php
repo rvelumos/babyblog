@@ -1,8 +1,6 @@
 <?php
 class logging{
-		//public function __construct() {
-		//$this->link = new MySQLi('localhost', 'deb4597_rd1234', 'LtZGED57', "deb4597_blog");
-	//}
+		
 	public function visitorLog(){
 		global $ip, $page, $url, $webhost, $server, $server_user, $method, $referer, $protocol, $browser;
 		if($page == ""){

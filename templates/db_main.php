@@ -9,7 +9,7 @@
     <table><tr><td valign="top">
     <select name='db_tables' multiple="multiple" size='15'>
     <?=
-    $query=mysql_list_tables("deb4597_blog");
+    $query=mysql_list_tables("?");
     
     $i=1;
     while($table_name = mysql_fetch_array($query)){
